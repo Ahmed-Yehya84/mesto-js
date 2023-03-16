@@ -1,0 +1,26 @@
+.profile__submit-button {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  max-width: 358px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 1);
+  border: none;
+  margin: 0 36px 37px 36px;
+  padding: 14px 124px 18px 124px;
+  cursor: pointer;
+}
+
+.profile__submit-button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+  .profile__submit-button {
+    max-width: 238px;
+    margin: 0 22px 25px 22px;
+    padding: 14px 82px 14px 82px;
+  }
+}

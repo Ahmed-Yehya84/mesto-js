@@ -1,0 +1,47 @@
+/* normalize.css */
+@import url(../vendor/normalize.css);
+/* fonts */
+@import url(../vendor/fonts/fonts.css);
+
+/* root */
+@import url(../blocks/root/root.css);
+
+/* page */
+@import url(../blocks/page/page.css);
+
+/* header block */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+/* profile block */
+
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__avatar/profile__avatar.css);
+@import url(../blocks/profile/__information/profile__information.css);
+@import url(../blocks/profile/__name/profile__name.css);
+@import url(../blocks/profile/__name/_edit/profile__name_edit_button.css);
+
+@import url(../blocks/profile/__edit-form/profile__edit-form.css);
+
+@import url(../blocks/profile/__edit-form/_title/profile__edit-form_title.css);
+@import url(../blocks/profile/__edit-form/_name/profile__edit-form_name.css);
+@import url(../blocks/profile/__edit-form/_subtitle/profile__edit-form_subtitle.css);
+@import url(../blocks/profile/__edit-form/_close-button/profile__edit-form_close-button.css);
+@import url(../blocks/profile/__submit-button/profile__submit-button.css);
+@import url(../blocks/profile/__subtitle/profile__subtitle.css);
+@import url(../blocks/profile/__add-button/profile__add-button.css);
+
+/* cards block */
+
+@import url(../blocks/cards/cards.css);
+
+/* card block */
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__information/card__information.css);
+@import url(../blocks/card/__like-button/card__like-button.css);
+@import url(../blocks/card/__title/card__title.css);
+
+/* footer block  */
+
+@import url(../blocks/footer/footer.css);

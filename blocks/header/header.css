@@ -1,0 +1,14 @@
+.header {
+  max-width: 880px;
+  margin: 45px 200px 40px 200px;
+  display: grid;
+  grid-template-columns: 3;
+  border-bottom: 1px solid #545454;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 28px 0 42px 0;
+    max-width: 320px;
+  }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>mesto</title>
+  </head>
+  <body class="root">
+    <div class="page">
+      <header class="header">
+        <img src="./images/logo.svg" alt="логотип mesto" class="header__logo" />
+      </header>
+      <main class="main">
+        <section class="profile" aria-label="профиль">
+          <img src="./images/profileImage.jpg" alt="" class="profile__avatar" />
+
+          <div class="profile__information">
+            <h1 class="profile__name">
+              Жак-Ив Кусто<button class="profile__name_edit_button"></button>
+            </h1>
+            <p class="profile__subtitle">Исследователь океана</p>
+          </div>
+
+          <form action="submit" class="profile__edit-form">
+            <img
+              src="./images/Close Icon.svg"
+              alt="кнопка закрытия"
+              class="profile__edit-form_close-button"
+            />
+            <h3 class="profile__edit-form_title">Редактировать профиль</h3>
+
+            <input
+              type="text"
+              class="profile__edit-form_name"
+              value="Жак-Ив Кусто"
+            />
+            <input
+              type="text"
+              class="profile__edit-form_subtitle"
+              value="Исследователь океана"
+            />
+            <button class="profile__submit-button">Сохранить</button>
+          </form>
+          <button class="profile__add-button">
+            <img
+              src="./images/add-button.svg"
+              alt="кнопка добавления"
+              class="profile__add-icon"
+            />
+          </button>
+        </section>
+        <section class="cards" aria-label="открытки">
+          <div class="card">
+            <img
+              src="./images/image-1.png"
+              alt="Карачаевск "
+              class="card__image"
+            />
+            <h2 class="card__title">
+              Карачаевск <button class="card__like-button"></button>
+            </h2>
+          </div>
+          <div class="card">
+            <img
+              src="./images/image-2.png"
+              alt=" Гора Эльбрус"
+              class="card__image"
+            />
+            <h2 class="card__title">
+              Гора Эльбрус <button class="card__like-button"></button>
+            </h2>
+          </div>
+
+          <div class="card">
+            <img src="./images/image-3.png" alt="Домбай" class="card__image" />
+
+            <h2 class="card__title">
+              Домбай <button class="card__like-button"></button>
+            </h2>
+          </div>
+          <div class="card">
+            <img
+              src="./images/image-2.png"
+              alt="Гора Эльбрус"
+              class="card__image"
+            />
+            <h2 class="card__title">
+              Гора Эльбрус <button class="card__like-button"></button>
+            </h2>
+          </div>
+          <div class="card">
+            <img src="./images/image-3.png" alt="Домбай" class="card__image" />
+
+            <h2 class="card__title">
+              Домбай <button class="card__like-button"></button>
+            </h2>
+          </div>
+          <div class="card">
+            <img
+              src="./images/image-1.png"
+              alt="Карачаево"
+              class="card__image"
+            />
+
+            <h2 class="card__title">
+              Карачаево-Ч... <button class="card__like-button"></button>
+            </h2>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">© 2020 Mesto Russia</footer>
+    </div>
+    <script src="./blocks/profile/__name/_edit/profile__name_edit_button.js"></script>
+  </body>
+</html>

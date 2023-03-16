@@ -1,0 +1,22 @@
+.profile__edit-form_close-button {
+  width: 32px;
+  height: 32px;
+  color: #ffffff;
+  position: absolute;
+  top: -35px;
+  right: -35px;
+  cursor: pointer;
+}
+
+.profile__edit-form_close-button:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 320px) {
+  .profile__edit-form_close-button {
+    width: 20px;
+    height: 20px;
+    top: -35px;
+    right: 0;
+  }
+}
