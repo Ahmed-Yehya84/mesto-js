@@ -1,9 +1,8 @@
-.profile__name_edit_button {
+.profile__edit-button {
   background-image: url("../../../../images/Edit-Button.svg");
   display: block;
   object-fit: cover;
   margin: 15px 0 0 18px;
-
   padding: 0;
   min-width: 24px;
   height: 24px;
@@ -13,7 +12,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .profile__name_edit_button {
+  .profile__edit-button {
     margin: 8px 19px 0 10px;
   }
 }

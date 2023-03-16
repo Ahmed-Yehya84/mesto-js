@@ -1,15 +1,13 @@
-let profile__name_edit_button = document.querySelector(
-  ".profile__name_edit_button"
-);
+let profile__editButton = document.querySelector(".profile__edit-button");
 
 let editFormPopup = document.querySelector(".profile__edit-form");
-let closeButton = document.querySelector(".profile__edit-form_close-button");
+let closeButton = document.querySelector(".profile__close-button");
 let profileSubmitButton = document.querySelector(".profile__submit-button");
 let heartButton = document.querySelector(".card__like-button");
 
 closeButton.addEventListener("click", hidePopup);
 
-profile__name_edit_button.addEventListener("click", editForm);
+profile__editButton.addEventListener("click", editForm);
 
 profileSubmitButton.addEventListener("click", submitHandle);
 
